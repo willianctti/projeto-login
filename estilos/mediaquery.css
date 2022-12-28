@@ -3,8 +3,20 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     section#login {
         width: 80vw;
+        height: 300px;
 
     }
+
+    div.campo > input {
+        background-color: rgb(0, 0, 0);
+        font-size: 1em;
+        width: calc(100% - 11%);
+        border: 1px rgb(241, 246, 243);
+        height: 100%;
+        transform: translatey(-11px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 9px; }
 
     section#login > div#imagem {
         float: left;
@@ -20,12 +32,24 @@
         }
 }
 
+
+
 @media screen and (min-width: 992px) {
     body {
         background: linear-gradient(45deg, rgba(0, 57, 9, 0.567), #0a1c00, #000e00);
         background-size: 300%, 300%;
         animation: colors 7s ease infinite;
     }
+    div.campo > input {
+        background-color: rgb(0, 0, 0);
+        font-size: 1em;
+        width: calc(100% - 11%);
+        border: 1px rgb(241, 246, 243);
+        height: 100%;
+        transform: translatey(-11px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 9px; }
 
 @keyframes colors {
     0% {
@@ -41,6 +65,7 @@ background-position: 100% 50%;
 
     section#login {
         width: 992px;
+        height: 350px;
     }
 
     section#login >  div#imagem {
