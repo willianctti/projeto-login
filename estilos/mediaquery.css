@@ -22,9 +22,9 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background: linear-gradient(45deg, rgba(161, 250, 175, 0.567), #205800, #011a00);
+        background: linear-gradient(45deg, rgba(0, 57, 9, 0.567), #0a1c00, #000e00);
         background-size: 300%, 300%;
-        animation: colors 15s ease infinite;
+        animation: colors 7s ease infinite;
     }
 
 @keyframes colors {
