@@ -13,10 +13,10 @@
         width: calc(100% - 11%);
         border: 1px rgb(241, 246, 243);
         height: 100%;
-        transform: translatey(-11px);
         border: 0px;
         border-radius: 8px;
-        padding: 9px; }
+        padding: 9px; 
+        transform: translatey(-11px);}
 
     section#login > div#imagem {
         float: left;
@@ -46,10 +46,10 @@
         width: calc(100% - 11%);
         border: 1px rgb(241, 246, 243);
         height: 100%;
-        transform: translatey(-11px);
         border: 0px;
         border-radius: 8px;
-        padding: 9px; }
+        padding: 9px;
+        transform: translatey(-11px); }
 
 @keyframes colors {
     0% {
